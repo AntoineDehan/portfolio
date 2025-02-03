@@ -1,0 +1,14 @@
+.tag-conteneur {
+  display: flex;
+  gap: 5px;
+}
+.tag-conteneur p {
+  background-color: #0aa2a8;
+  padding: 8px 22px 8px 22px;
+  border-radius: 3px;
+  color: #ffe7d4;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

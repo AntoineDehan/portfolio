@@ -1,0 +1,14 @@
+@use "../../style.scss" as *;
+
+.tag-conteneur {
+  display: flex;
+  gap: 5px;
+  p {
+    background-color: $main-color;
+    padding: 8px 22px 8px 22px;
+    border-radius: 3px;
+    color: $tertiary-color;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+}
