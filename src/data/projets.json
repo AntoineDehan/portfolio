@@ -1,0 +1,34 @@
+[
+  {
+    "id": 925156028,
+    "title": "portfolio",
+    "description": "Code source de mon portfolio (React avec Vite)",
+    "url": "https://github.com/AntoineDehan/portfolio",
+    "image": "/assets/github-placeholder.png",
+    "tags": ["React", "Projet Pro"]
+  },
+  {
+    "id": 917146530,
+    "title": "Argent-Bank",
+    "description": "Argent Bank est une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire.",
+    "url": "https://github.com/AntoineDehan/Argent-Bank",
+    "image": "src/assets/projets/argentbank.webp",
+    "tags": ["React", "Redux"]
+  },
+  {
+    "id": 810318386,
+    "title": "Kasa",
+    "description": null,
+    "url": "https://github.com/AntoineDehan/Kasa",
+    "image": "src/assets/projets/kasa.webp",
+    "tags": ["React"]
+  },
+  {
+    "id": 902923654,
+    "title": "OptimisationSEO-NinaCarducci",
+    "description": null,
+    "url": "https://github.com/AntoineDehan/OptimisationSEO-NinaCarducci",
+    "image": "/src/assets/projets/seo.webp",
+    "tags": ["SEO"]
+  }
+]

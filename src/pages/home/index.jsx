@@ -1,6 +1,14 @@
 import TextBanner from "../../componants/textbanner";
 import ImgBanner from "../../componants/imgbanner";
+import Card from "../../componants/card";
+import CvCard from "../../componants/cvcard";
+import SkillCard from "../../componants/skillcard";
+
 import image from "../../assets/test.png";
+import Projets from "../../data/projets.json";
+import Diplomes from "../../data/diplomes.json";
+import Experiences from "../../data/experiences.json";
+import Skills from "../../data/skills.json";
 
 import "../../styles/css/home/style.css";
 
@@ -21,6 +29,22 @@ function Home() {
         title="Ceci est un titre test"
         content="Ceci est un texte test mais parcontre il est beaucoup plus long puisque c'est censé représenter un paragraphe. On peut me dire deux paragraphes en vrai? Dans tous les j'importerai le texte via un JSON pour faire genre je sais faire des sites de ouf"
       />
+      <section className="projets">
+        <h2>Mes projets</h2>
+        <Card data={Projets} />
+      </section>
+      <section className="diplomes">
+        <h2>Diplômes</h2>
+        <CvCard data={Diplomes} />
+      </section>
+      <section className="experiences">
+        <h2>Expériences</h2>
+        <CvCard data={Experiences} />
+      </section>
+      <section className="competences">
+        <h2>Compétences</h2>
+        <SkillCard data={Skills} />
+      </section>
     </div>
   );
 }

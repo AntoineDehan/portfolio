@@ -1,0 +1,56 @@
+@use "../../style.scss" as *;
+
+.card-conteneur {
+  .card {
+    height: 435px;
+    width: 900px;
+    margin-bottom: 10px;
+    .card-top {
+      height: 80%;
+      width: 100%;
+      position: relative;
+      .content {
+        position: absolute;
+        width: 80%;
+        height: 25%;
+        bottom: 5px;
+        left: 10px;
+        z-index: 1;
+        text-decoration: none;
+        color: $tertiary-color;
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 0;
+        }
+        p {
+          margin-top: 0;
+        }
+      }
+      .bg-content {
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: none;
+        }
+        .overlay {
+          background-color: black;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          opacity: 0.65;
+          &:hover {
+            opacity: 0.45;
+          }
+        }
+      }
+      .tag-conteneur {
+        margin-top: 5px;
+      }
+    }
+  }
+}
