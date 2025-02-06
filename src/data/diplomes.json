@@ -3,14 +3,16 @@
     "id": 1,
     "title": "Intégrateur Web - OpenClassrooms",
     "date": "2025",
+    "image": "src/assets/diplomes/openclassrooms_logo.webp",
     "content": "",
-    "tags": ["distanciel"]
+    "tags": ["Distanciel"]
   },
   {
     "id": 2,
     "title": "BTS - Négociation et Digitalisation de la Relation Client",
     "date": "2021",
     "content": "",
+    "image": "src/assets/diplomes/pigier_logo.webp",
     "tags": ["Bègles"]
   }
 ]

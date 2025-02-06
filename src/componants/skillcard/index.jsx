@@ -1,3 +1,5 @@
+import "../../styles/css/skillcard/style.css";
+
 function SkillCard({ data }) {
   return (
     <div className="skill-conteneur">

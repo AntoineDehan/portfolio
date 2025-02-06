@@ -1,0 +1,24 @@
+.skill-conteneur {
+  display: flex;
+  gap: 25%;
+}
+.skill-conteneur .skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skill-conteneur .skill h3 {
+  font-size: 1.5rem;
+  margin-top: 2px;
+}
+.skill-conteneur .skill img {
+  height: 80px;
+  width: 80px;
+  border: 0px #494e5f solid;
+  border-radius: 50%;
+  margin-bottom: 0;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */

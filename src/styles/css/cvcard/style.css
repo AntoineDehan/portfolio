@@ -1,0 +1,29 @@
+.cv-card {
+  display: flex;
+  height: 115px;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 80px;
+}
+.cv-card-contenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  gap: 0;
+}
+.cv-card-contenu h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.cv-card-contenu p {
+  margin: 0;
+}
+.cv-card-contenu .cv-card-date {
+  font-size: 1.2rem;
+}
+.cv-card-contenu .tag-conteneur {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,7 @@
 import Tag from "../tag";
 
+import "../../styles/css/cvcard/style.css";
+
 function CvCard({ data }) {
   return (
     <div className="cv-card-conteneur">

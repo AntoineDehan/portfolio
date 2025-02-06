@@ -1,0 +1,31 @@
+@use "../../style.scss" as *;
+
+.cv-card {
+  display: flex;
+  height: 115px;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 80px;
+  img {
+  }
+  &-contenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    gap: 0;
+    h3 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    p {
+      margin: 0;
+    }
+    .cv-card-date {
+      font-size: 1.2rem;
+    }
+    .tag-conteneur {
+      margin: 0;
+    }
+  }
+}

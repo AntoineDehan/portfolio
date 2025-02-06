@@ -2,6 +2,21 @@
   {
     "id": 1,
     "title": "React",
-    "image": "src/assets/test.PNG"
+    "image": "src/assets/skills/react_logo.webp"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript",
+    "image": "src/assets/skills/javascript_logo.webp"
+  },
+  {
+    "id": 3,
+    "title": "SCSS",
+    "image": "src/assets/skills/sass_logo.webp"
+  },
+  {
+    "id": 4,
+    "title": "SEO",
+    "image": "src/assets/skills/seo_logo.webp"
   }
 ]
