@@ -14,5 +14,21 @@
     "image": "src/assets/experiences/leadqwest_logo.webp",
     "content": "",
     "tags": ["Stage", "Bordeaux"]
+  },
+  {
+    "id": 3,
+    "title": "Employé polyvalent cuisine CHU Pellegrin",
+    "date": "14/09/2021- 30/06/2022",
+    "image": "src/assets/experiences/chu_logo.webp",
+    "content": "",
+    "tags": ["Emploi", "Bordeaux"]
+  },
+  {
+    "id": 4,
+    "title": "Auto entrepreneur dans le référencement internet",
+    "date": "105/2021 - 08/2021",
+    "image": "src/assets/experiences/seo_logo.webp",
+    "content": "",
+    "tags": ["Auto-entreprise", "Distanciel"]
   }
 ]

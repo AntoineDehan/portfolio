@@ -1,5 +1,11 @@
 @use "../../style.scss" as *;
 
+.cv-card-conteneur {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .cv-card {
   display: flex;
   height: 115px;

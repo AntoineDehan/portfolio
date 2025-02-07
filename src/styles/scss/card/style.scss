@@ -1,6 +1,10 @@
 @use "../../style.scss" as *;
 
 .card-conteneur {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   .card {
     height: 435px;
     width: 900px;

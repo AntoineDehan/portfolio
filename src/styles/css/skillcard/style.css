@@ -1,16 +1,18 @@
 .skill-conteneur {
   display: flex;
-  gap: 25%;
+  justify-content: center;
+  gap: 10%;
+  width: 80%;
 }
 .skill-conteneur .skill {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 .skill-conteneur .skill h3 {
   font-size: 1.5rem;
   margin-top: 2px;
+  text-align: center;
 }
 .skill-conteneur .skill img {
   height: 80px;
