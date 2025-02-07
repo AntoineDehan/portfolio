@@ -1,0 +1,36 @@
+.footer-conteneur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", serif;
+  background-color: #0aa2a8;
+  color: #ffe7d4;
+}
+.footer-conteneur h2 {
+  font-size: 2.5rem;
+}
+.footer-conteneur a {
+  color: #494e5f;
+}
+.footer-conteneur .contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.footer-conteneur .contact-form label {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.footer-conteneur .contact-form .input {
+  width: 350px;
+  border-radius: 8px;
+  border: #494e5f solid 2px;
+}
+.footer-conteneur .contact-form .email-input {
+  height: 25px;
+}
+.footer-conteneur .contact-form .message-input {
+  height: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */

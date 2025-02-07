@@ -1,6 +1,8 @@
 .header-conteneur {
   display: flex;
   justify-content: space-between;
+  background-color: #0aa2a8;
+  font-size: 1.5rem;
 }
 .header-conteneur nav {
   display: flex;
@@ -11,7 +13,10 @@
 .header-conteneur nav a {
   text-decoration: none;
   font-weight: bold;
-  color: black;
+  color: #ffe7d4;
+}
+.header-conteneur nav a:hover {
+  text-decoration: underline;
 }
 .header-conteneur nav img {
   width: 40px;

@@ -12,8 +12,8 @@ function ImgBanner({ title, description, image, alt }) {
           <h2>{description}</h2>
         </div>
         <div className="img-banner down-content">
-          <a href="">Contact</a>
-          <a href="">
+          <a href="#contact">Contact</a>
+          <a href="src\assets\cv.pdf" download="CV_Dehan_Dartial_Antoine">
             <FontAwesomeIcon icon={faFileArrowDown} /> Mon CV
           </a>
           <a href="https://github.com/AntoineDehan">

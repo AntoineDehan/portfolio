@@ -1,0 +1,36 @@
+@use "../../style.scss" as *;
+
+.footer-conteneur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", serif;
+  background-color: $main-color;
+  color: $tertiary-color;
+  h2 {
+    font-size: 2.5rem;
+  }
+  a {
+    color: $secondary-color;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    label {
+      font-size: 1.25rem;
+      margin-bottom: 5px;
+      margin-top: 15px;
+    }
+    .input {
+      width: 350px;
+      border-radius: 8px;
+      border: $secondary-color solid 2px;
+    }
+    .email-input {
+      height: 25px;
+    }
+    .message-input {
+      height: 200px;
+    }
+  }
+}

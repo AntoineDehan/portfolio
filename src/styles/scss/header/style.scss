@@ -1,6 +1,10 @@
+@use "../../style.scss" as *;
+
 .header-conteneur {
   display: flex;
   justify-content: space-between;
+  background-color: $main-color;
+  font-size: 1.5rem;
   nav {
     display: flex;
     align-items: center;
@@ -9,7 +13,10 @@
     a {
       text-decoration: none;
       font-weight: bold;
-      color: black;
+      color: $tertiary-color;
+      &:hover {
+        text-decoration: underline;
+      }
     }
     img {
       width: 40px;
