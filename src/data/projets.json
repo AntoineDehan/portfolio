@@ -4,7 +4,7 @@
     "title": "Portfolio",
     "description": "Code source de mon portfolio (React avec Vite).",
     "url": "https://github.com/AntoineDehan/portfolio",
-    "image": "src/assets/projets/portfolio.webp",
+    "image": "projets/portfolio.webp",
     "tags": ["React", "Projet Pro"]
   },
   {
@@ -12,7 +12,7 @@
     "title": "Argent-Bank",
     "description": "Projet d'une banque en ligne utilisant React et Redux.",
     "url": "https://github.com/AntoineDehan/Argent-Bank",
-    "image": "src/assets/projets/argentbank.webp",
+    "image": "projets/argentbank.webp",
     "tags": ["React", "Redux"]
   },
   {
@@ -20,7 +20,7 @@
     "title": "Kasa",
     "description": "Projet d'un site d'immobilier utilisant React.",
     "url": "https://github.com/AntoineDehan/Kasa",
-    "image": "src/assets/projets/kasa.webp",
+    "image": "projets/kasa.webp",
     "tags": ["React"]
   },
   {
@@ -28,7 +28,7 @@
     "title": "Optimisation SEO NinaCarducci",
     "description": "Optimisation d'un site HTML pour le réferencement et le référencement local.",
     "url": "https://github.com/AntoineDehan/OptimisationSEO-NinaCarducci",
-    "image": "/src/assets/projets/seo.webp",
+    "image": "projets/seo.webp",
     "tags": ["SEO"]
   }
 ]

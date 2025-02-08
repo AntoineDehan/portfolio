@@ -2,36 +2,36 @@
   {
     "id": 1,
     "title": "React",
-    "image": "src/assets/skills/react_logo.webp"
+    "image": "skills/react_logo.webp"
   },
   {
     "id": 2,
     "title": "JavaScript",
-    "image": "src/assets/skills/javascript_logo.webp"
+    "image": "skills/javascript_logo.webp"
   },
   {
     "id": 3,
     "title": "SCSS",
-    "image": "src/assets/skills/sass_logo.webp"
+    "image": "skills/sass_logo.webp"
   },
   {
     "id": 4,
     "title": "SEO",
-    "image": "src/assets/skills/seo_logo.webp"
+    "image": "skills/seo_logo.webp"
   },
   {
     "id": 5,
     "title": "Anglais C1",
-    "image": "src/assets/skills/anglais_logo.webp"
+    "image": "skills/anglais_logo.webp"
   },
   {
     "id": 6,
     "title": "Figma",
-    "image": "src/assets/skills/figma_logo.webp"
+    "image": "skills/figma_logo.webp"
   },
   {
     "id": 7,
     "title": "Davinci Resolve",
-    "image": "src/assets/skills/davinci_logo.webp"
+    "image": "skills/davinci_logo.webp"
   }
 ]
