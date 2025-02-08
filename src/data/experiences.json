@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Marleting Digital Mya Foods",
     "date": "12/02/2023 - 06/05/2023",
-    "image": "/experiences/myafoods_logo.webp",
+    "image": "/portfolio/experiences/myafoods_logo.webp",
     "content": "",
     "tags": ["Stage", "Dublin Irlande"]
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Digital marketing Leadqwest - Bordeaux",
     "date": "15/06/2020 - 31/07/2020",
-    "image": "/experiences/leadqwest_logo.webp",
+    "image": "/portfolio/experiences/leadqwest_logo.webp",
     "content": "",
     "tags": ["Stage", "Bordeaux"]
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Employé polyvalent cuisine CHU Pellegrin",
     "date": "14/09/2021- 30/06/2022",
-    "image": "/experiences/chu_logo.webp",
+    "image": "/portfolio/experiences/chu_logo.webp",
     "content": "",
     "tags": ["Emploi", "Bordeaux"]
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "Auto entrepreneur dans le référencement internet",
     "date": "05/2021 - 08/2021",
-    "image": "/experiences/seo_logo.webp",
+    "image": "/portfolio/experiences/seo_logo.webp",
     "content": "",
     "tags": ["Auto-entreprise", "Distanciel"]
   }
