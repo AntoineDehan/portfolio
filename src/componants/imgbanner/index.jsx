@@ -1,7 +1,8 @@
-import "../../styles/css/imgbanner/style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
+
+import "../../styles/css/imgbanner/style.css";
 
 function ImgBanner({ title, description, image, alt }) {
   return (
