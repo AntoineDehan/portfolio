@@ -9,7 +9,7 @@ function Header() {
     <header className="header-conteneur">
       <div></div>
       <nav>
-        <Link to="/">Accueil</Link>
+        <Link to="/portfolio">Accueil</Link>
         <Link to="/compact">Version compacte</Link>
         <a href="#contact">Contact</a>
         <a href="https://github.com/AntoineDehan">
