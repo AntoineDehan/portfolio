@@ -16,6 +16,17 @@
   .contact-form {
     display: flex;
     flex-direction: column;
+
+    .submit-btn {
+      margin-top: 10px;
+      width: 50%;
+      height: 30px;
+      align-self: center;
+      border-radius: 10px;
+      border: $secondary-color solid 2px;
+      color: $tertiary-color;
+      background-color: $secondary-color;
+    }
     label {
       font-size: 1.25rem;
       margin-bottom: 5px;

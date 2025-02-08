@@ -6,7 +6,7 @@
 }
 .card-conteneur .card {
   height: 435px;
-  width: 900px;
+  width: 80%;
   margin-bottom: 10px;
 }
 .card-conteneur .card .card-top {
@@ -55,6 +55,43 @@
 }
 .card-conteneur .card .card-top .tag-conteneur {
   margin-top: 5px;
+}
+
+@media (max-width: 1080px) {
+  .card-conteneur .card {
+    height: 375px;
+    width: 100%;
+  }
+}
+@media (max-width: 680px) {
+  .card-conteneur .card {
+    height: 70%;
+    width: 100%;
+  }
+  .card-conteneur .card .card-top .content {
+    bottom: 20px;
+  }
+  .card-conteneur .card .card-top .content h3 {
+    font-size: 1.25rem;
+  }
+  .card-conteneur .card .card-top .content p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 480px) {
+  .card-conteneur .card {
+    height: 70%;
+    width: 100%;
+  }
+  .card-conteneur .card .card-top .content {
+    bottom: 50px;
+  }
+  .card-conteneur .card .card-top .content h3 {
+    font-size: 1rem;
+  }
+  .card-conteneur .card .card-top .content p {
+    font-size: 0.85rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

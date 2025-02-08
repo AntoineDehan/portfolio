@@ -7,7 +7,7 @@
   align-items: center;
   .card {
     height: 435px;
-    width: 900px;
+    width: 80%;
     margin-bottom: 10px;
     .card-top {
       height: 80%;
@@ -54,6 +54,55 @@
       }
       .tag-conteneur {
         margin-top: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  .card-conteneur {
+    .card {
+      height: 375px;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .card-conteneur {
+    .card {
+      height: 70%;
+      width: 100%;
+      .card-top {
+        .content {
+          bottom: 20px;
+          h3 {
+            font-size: 1.25rem;
+          }
+          p {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .card-conteneur {
+    .card {
+      height: 70%;
+      width: 100%;
+      .card-top {
+        .content {
+          bottom: 50px;
+          h3 {
+            font-size: 1rem;
+          }
+          p {
+            font-size: 0.85rem;
+          }
+        }
       }
     }
   }

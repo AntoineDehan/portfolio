@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import "../../styles/css/header/style.css";
 
@@ -9,10 +11,9 @@ function Header() {
       <nav>
         <Link to="/">Accueil</Link>
         <Link to="/compact">Version compacte</Link>
-        <a href="#projets">Projets</a>
         <a href="#contact">Contact</a>
         <a href="https://github.com/AntoineDehan">
-          <img src="src\assets\github.png" alt="Logo Github"></img>
+          <FontAwesomeIcon icon={faGithub} />
         </a>
       </nav>
     </header>

@@ -25,12 +25,14 @@ function Footer() {
             className="message-input input"
             required
           ></textarea>
-          <button type="submit">Envoyer</button>
+          <button type="submit" className="submit-btn">
+            Envoyer
+          </button>
         </form>
       </div>
       <p>
-        Crée avec Vite.js, code source disponnible sur {""}
-        <a href="https://github.com/AntoineDehan/portfolio">Gitub</a>.
+        Crée avec React via Vite.js, code source disponnible sur {""}
+        <a href="https://github.com/AntoineDehan/portfolio">Github</a>.
       </p>
     </footer>
   );

@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -22,6 +21,24 @@ section .section-title {
   font-size: 2.5rem;
   margin-bottom: 45px;
   border-bottom: black 4px solid;
+}
+
+@media (max-width: 680px) {
+  .main-conteneur {
+    max-width: 1024px;
+    padding: 15px;
+  }
+}
+@media (max-width: 680px) {
+  .main-conteneur {
+    max-width: 680px;
+    padding: 5px;
+  }
+  section .section-title {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    border-bottom: black 3px solid;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
