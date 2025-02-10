@@ -12,6 +12,10 @@
   gap: 10px;
   margin-bottom: 80px;
 }
+.cv-card img {
+  width: auto;
+  height: 100%;
+}
 .cv-card-contenu {
   display: flex;
   flex-direction: column;

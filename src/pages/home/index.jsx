@@ -20,7 +20,7 @@ function Home() {
         <ImgBanner
           title="Antoine Dehan-Dartial"
           description="Font-End Développeur"
-          alt="blah"
+          alt="Fond noir"
           image={image}
         />
         <TextBanner data={About} />
