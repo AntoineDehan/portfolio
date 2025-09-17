@@ -2,30 +2,28 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 
-import "../../styles/css/imgbanner/style.css";
+import "../../styles/scss/introbanner/style.scss";
 
-function ImgBanner({ title, description, image, alt }) {
+function IntroBanner({ title, description }) {
   return (
-    <div className="img-banner-conteneur">
-      <div className="img-banner banner-content">
-        <div className="img-banner top-content">
+    <div className="intro-banner-conteneur">
+      <div className="intro-banner banner-content">
+        <div className="intro-banner top-content">
           <h1>{title}</h1>
           <h2>{description}</h2>
         </div>
-        <div className="img-banner down-content">
-          <a href="#contact">Contact</a>
+        <div className="intro-banner down-content">
+          <a href="#contact">Me Contacter</a>
           <a href="/portfolio/cv.pdf" download="CV_Dehan_Dartial_Antoine">
             <FontAwesomeIcon icon={faFileArrowDown} /> Mon CV
           </a>
-          <a href="https://github.com/AntoineDehan">
+          {/* <a href="https://github.com/AntoineDehan">
             <FontAwesomeIcon icon={faGithub} />
-          </a>
+          </a> */}
         </div>
       </div>
-      <img src={image} alt={alt} />
-      <div className="banner-overlay"></div>
     </div>
   );
 }
 
-export default ImgBanner;
+export default IntroBanner;

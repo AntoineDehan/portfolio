@@ -6,13 +6,13 @@
   },
   {
     "id": 2,
-    "title": "JavaScript",
-    "image": "/portfolio/skills/javascript_logo.webp"
+    "title": "Redux",
+    "image": "/portfolio/skills/redux_logo.webp"
   },
   {
     "id": 3,
-    "title": "SCSS",
-    "image": "/portfolio/skills/sass_logo.webp"
+    "title": "JavaScript",
+    "image": "/portfolio/skills/javascript_logo.webp"
   },
   {
     "id": 4,
@@ -21,17 +21,12 @@
   },
   {
     "id": 5,
-    "title": "Anglais C1",
-    "image": "/portfolio/skills/anglais_logo.webp"
-  },
-  {
-    "id": 6,
     "title": "Figma",
     "image": "/portfolio/skills/figma_logo.webp"
   },
   {
-    "id": 7,
-    "title": "Davinci Resolve",
-    "image": "/portfolio/skills/davinci_logo.webp"
+    "id": 6,
+    "title": "Anglais",
+    "image": "/portfolio/skills/anglais_logo.webp"
   }
 ]

@@ -1,4 +1,4 @@
-import "../../styles/css/skillcard/style.css";
+import "../../styles/scss/skillcard/style.scss";
 
 function SkillCard({ data }) {
   return (
@@ -7,7 +7,7 @@ function SkillCard({ data }) {
         const { id, image, title } = skill;
         return (
           <div className="skill" key={id}>
-            <img src={image} alt="" />
+            <img src={image} alt={title} />
             <h3>{title}</h3>
           </div>
         );

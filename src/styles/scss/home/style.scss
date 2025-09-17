@@ -1,4 +1,7 @@
 @use "../../style.scss" as *;
+body {
+  background-color: $main-color;
+}
 
 .main-conteneur {
   display: flex;
@@ -8,6 +11,7 @@
   margin: 0 auto;
   padding: 20px;
   font-family: "Roboto", serif;
+  color: $text-color;
 }
 
 section {
