@@ -1,11 +1,11 @@
 [
   {
-    "id": 925156028,
-    "title": "Portfolio",
-    "description": "Code source de mon portfolio (React avec Vite).",
-    "url": "https://github.com/AntoineDehan/portfolio",
-    "image": "/portfolio/projets/portfolio.webp",
-    "tags": ["React", "Projet Pro"]
+    "id": 1,
+    "title": "Sidgi Reflexo",
+    "description": "Site d'une réflexologue autours de Saint-André-de-Cubzac.",
+    "url": "https://github.com/AntoineDehan/Sidgi-Reflexo",
+    "image": "/portfolio/projets/sidgi.webp",
+    "tags": ["React", "Projet Pro", "SEO", "Hébérgement Web"]
   },
   {
     "id": 917146530,
@@ -13,7 +13,7 @@
     "description": "Projet d'une banque en ligne utilisant React et Redux.",
     "url": "https://github.com/AntoineDehan/Argent-Bank",
     "image": "/portfolio/projets/argentbank.webp",
-    "tags": ["React", "Redux"]
+    "tags": ["React", "Redux", "Fictif"]
   },
   {
     "id": 810318386,
@@ -21,7 +21,7 @@
     "description": "Projet d'un site d'immobilier utilisant React.",
     "url": "https://github.com/AntoineDehan/Kasa",
     "image": "/portfolio/projets/kasa.webp",
-    "tags": ["React"]
+    "tags": ["React", "Fictif"]
   },
   {
     "id": 902923654,
@@ -29,6 +29,14 @@
     "description": "Optimisation d'un site HTML pour le réferencement et le référencement local.",
     "url": "https://github.com/AntoineDehan/OptimisationSEO-NinaCarducci",
     "image": "/portfolio/projets/seo.webp",
-    "tags": ["SEO"]
+    "tags": ["SEO", "Fictif"]
+  },
+  {
+    "id": 2,
+    "title": "Prodigium Reforged",
+    "description": "Minecraft modpack.",
+    "url": "https://github.com/AntoineDehan/Prodigium-Reforged",
+    "image": "/portfolio/projets/prodigium.webp",
+    "tags": ["JavaScript", "Projet Perso"]
   }
 ]
