@@ -18,7 +18,12 @@ function Card({ data }) {
               </a>
               {/* </Link> */}
               {/* <Link to={`/projet/${id}`} className="bg-content"> */}
-              <a href={url} className="bg-content">
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-content"
+              >
                 <img src={image} alt={title}></img>
                 <div className="overlay"></div>
               </a>
