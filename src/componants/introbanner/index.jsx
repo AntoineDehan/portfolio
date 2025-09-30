@@ -2,9 +2,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 
+import { useState, React } from "react";  
+
+import Modal from "../modal";
+
 import "../../styles/scss/introbanner/style.scss";
 
 function IntroBanner({ title, description }) {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <div className="intro-banner-conteneur">
       <div className="intro-banner banner-content">
@@ -13,7 +18,7 @@ function IntroBanner({ title, description }) {
           <h2>{description}</h2>
         </div>
         <div className="intro-banner down-content">
-          <a href="#contact">Me Contacter</a>
+          <a onClick={() => setIsModalOpen(true)}>Me Contacter</a>
           <a href="/portfolio/cv.pdf" download="CV_Dehan_Dartial_Antoine">
             <FontAwesomeIcon icon={faFileArrowDown} /> Mon CV
           </a>
@@ -22,6 +27,7 @@ function IntroBanner({ title, description }) {
           </a> */}
         </div>
       </div>
+      <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
   );
 }
