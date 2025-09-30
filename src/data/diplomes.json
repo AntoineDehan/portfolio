@@ -1,6 +1,14 @@
 [
-  {
+    {
     "id": 1,
+    "title": "Bachelor Concépteur Développeur d'Application",
+    "date": "2025 - 2026",
+    "image": "/portfolio/diplomes/nexa_logo.webp",
+    "content": "",
+    "tags": ["Bordeaux"]
+  },
+  {
+    "id": 2,
     "title": "Intégrateur Web - OpenClassrooms",
     "date": "2025",
     "image": "/portfolio/diplomes/openclassrooms_logo.webp",
@@ -8,7 +16,7 @@
     "tags": ["Distanciel"]
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "BTS - Négociation et Digitalisation de la Relation Client",
     "date": "2021",
     "content": "",
