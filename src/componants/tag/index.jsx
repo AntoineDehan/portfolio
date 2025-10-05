@@ -1,4 +1,4 @@
-import "../../styles/css/tag/style.css";
+import "../../styles/scss/tag/style.scss";
 
 function Tag({ data }) {
   if (!data || data.length === 0) return null;

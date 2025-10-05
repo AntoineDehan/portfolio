@@ -4,10 +4,10 @@
   display: flex;
   gap: 5px;
   p {
-    background-color: $main-color;
+    background-color: $secondary-color;
     padding: 8px 22px 8px 22px;
     border-radius: 3px;
-    color: $tertiary-color;
+    color: $text-color;
     font-size: 1.3rem;
     font-weight: bold;
   }

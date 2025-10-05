@@ -16,7 +16,7 @@ import IntroBanner from "../../componants/introbanner";
 function Home() {
   return (
     <div className="main-conteneur">
-      <section className="intro">
+      <section className="intro" id="intro">
         <IntroBanner
           title="Antoine Dehan-Dartial"
           description="Développeur Front-End"
@@ -31,7 +31,7 @@ function Home() {
         <h2 className="section-title">Mes projets</h2>
         <Card data={Projets} />
       </section>
-      <section className="diplomes">
+      <section className="diplomes" id="diplomes">
         <h2 className="section-title">Diplômes</h2>
         <CvCard data={Diplomes} />
       </section>
